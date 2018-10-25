@@ -81,7 +81,9 @@ def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
   #use select
-  holiday_hash.select do |
+  holiday_hash.select do |key, value|
+    
+  end
   
   
   return bbq_array
