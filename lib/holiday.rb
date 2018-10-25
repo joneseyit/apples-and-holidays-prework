@@ -84,9 +84,9 @@ def all_holidays_with_bbq(holiday_hash)
     puts "season is #{season}"
     puts "holiday1 is #{holiday}"
     holiday.each do |holiday, supplies|
-      puts "holiday2 is #{holiday}"
-      puts "Supply is #{supplies}"
-      puts "Supplies.to_s is #{supplies.to_s}"
+      # puts "holiday2 is #{holiday}"
+      # puts "Supply is #{supplies}"
+      # puts "Supplies.to_s is #{supplies.to_s}"
       supplies.each do |supply|
         puts "supply.to is #{supply.to_s}"
         if supply.to_s == "BBQ"
