@@ -85,6 +85,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.select do |season, holiday|
     season.do |holiday, supply|
       if supply == "BBQ"
+        next true
     end
   end
   
