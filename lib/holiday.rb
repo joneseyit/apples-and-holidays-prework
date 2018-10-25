@@ -61,7 +61,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{key.to_s.capitalize}:"
       value.each do |holiday, supplies|
       holiday = format_phrase(holiday)
-      puts "  #{format_phrase(holiday)}: #{supplies.join(", ")}"
+      puts "  #{holiday}: #{supplies.join(", ")}"
     end
   end
 end
