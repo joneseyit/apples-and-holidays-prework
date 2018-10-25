@@ -105,7 +105,9 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-
+## what i take from this
+# walk through code starting from the top
+# 
 
 
 
